@@ -64,6 +64,21 @@ main {
   font-size: clamp(1.6rem, 4vw, 2rem);
 }
 
+.home-title {
+  display: grid;
+  gap: 6px;
+}
+
+.home-title__main {
+  margin: 0;
+  font-size: clamp(2rem, 6vw, 2.6rem);
+  line-height: 1.1;
+}
+
+.home-title__sub {
+  font-size: 1.5rem;
+  color: var(--text-muted);
+}
 .page-lead {
   margin: 0;
   color: var(--text-muted);

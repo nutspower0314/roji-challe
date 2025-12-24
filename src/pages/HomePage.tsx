@@ -59,7 +59,10 @@ export default function HomePage() {
   return (
     <main className="page-layout">
       <section className="panel">
-        <h1 className="page-title">ロジック10問チャレンジ</h1>
+        <div className="home-title">
+          <h1 className="home-title__main">ろじちゃれ</h1>
+          <div className="home-title__sub">ロジック10問チャレンジ</div>
+        </div>
         <p className="page-lead">
           条件整理の思考力を鍛えるミニセッションです。10問解ききると診断サマリーが表示されます。
         </p>
